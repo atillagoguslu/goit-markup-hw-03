@@ -1,0 +1,195 @@
+/* Roboto Font */
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"); */
+
+/* Raleway Font */
+/* @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"); */
+
+/* --- ROOT --- */
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #fff;
+  --dairy: #fcfcfc;
+}
+:root {
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
+}
+/* --- ROOT --- */
+
+/* Inheritler buradan başlıyor. */
+a {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+  text-decoration-line: inherit;
+}
+/* Inheritler burada bitiyor. */
+
+/* Header kısmı buradan başlıyor. */
+header {
+  font-family: var(--font-family);
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  background: var(--white);
+}
+
+.logo-at-header {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+.logo-second-side {
+  color: var(--navy-blue);
+}
+.nav-links {
+  font-weight: 500;
+  color: var(--navy-blue);
+}
+.address-neutralize {
+  font-style: normal;
+  font-weight: 400;
+  color: var(--slate);
+}
+
+.links-color-on-hover:hover,
+.links-color-on-hover:focus {
+  color: var(--ocean);
+}
+
+/* Header kısmı burada bitiyor. */
+
+/* Bod kısmı buradan başlıyor. */
+body {
+  font-family: var(--font-family);
+  letter-spacing: 0.02em;
+  color: var(--slate);
+  background-color: var(--white);
+}
+
+.hero {
+  background-color: var(--navy-blue);
+}
+.hero-heading {
+  font-weight: 700;
+  font-size: 56px;
+  letter-spacing: 0.02em;
+  line-height: 107%;
+  text-align: center;
+  color: var(--white);
+}
+.hero-button {
+  font-family: inherit;
+  color: var(--white);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  background: var(--iris);
+  cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--ocean);
+}
+.features-heading {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.02em; /* Sanırım Heading inherit değil bu özelliğinde. */
+  line-height: 111%;
+  text-align: center;
+  color: var(--navy-blue);
+  text-transform: capitalize;
+}
+.features-headings {
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--navy-blue);
+}
+.features-paragraphs {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--slate);
+}
+.team-heading {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.02em; /* Sanırım Heading inherit değil bu özelliğinde. */
+  line-height: 111%;
+  text-align: center;
+  color: var(--navy-blue);
+  text-transform: capitalize;
+}
+.team {
+  background: var(--cloud);
+}
+.team-list-li {
+  background-color: var(--white);
+}
+.team-list-heading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--navy-blue);
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.team-list-paragraphs {
+  line-height: 150%;
+  font-size: 16px;
+  text-align: center;
+}
+.portfolio-headingtwo {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.02em; /* Sanırım Heading inherit değil bu özelliğinde. */
+  line-height: 111%;
+  text-align: center;
+  color: var(--navy-blue);
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+}
+.portfolio-heading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.portfolio-paragraphs {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--slate);
+}
+/* Body kısmı burada bitiyor. */
+
+/* Footer kısmı buradan başlıyor. */
+.footer-section {
+  background: var(--navy-blue);
+}
+.logo-at-footer-second-side {
+  color: var(--cloud);
+}
+.footer-paragraph {
+  line-height: 150%;
+  color: var(--cloud);
+}
