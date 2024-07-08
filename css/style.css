@@ -193,3 +193,8 @@ body {
   line-height: 150%;
   color: var(--cloud);
 }
+
+.container {
+  display: flex;
+  align-items: center;
+}
