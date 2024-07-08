@@ -261,3 +261,28 @@ body {
   display: flex;
   gap: 40px;
 }
+
+/* Hero kısmının flexli stilleri */
+
+.hero-style {
+  padding: 188px 0;
+
+}
+
+.hero-text-style {
+  max-width: 496px;
+}
+
+.hero-button-style {
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+}
+
+.hero-div {
+  flex-wrap: wrap;
+  width: 600px;
+}
