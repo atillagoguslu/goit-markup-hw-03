@@ -223,20 +223,26 @@ body {
 /*  Flex Tasarım buradan sonrasında başlıyor. */
 
 .container {
-  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  justify-content: space-between;
 }
+
+/* Header kısmı */
 
 .header-border {
   border-bottom: 1px solid var(--cornflower);
 }
 
+.header-div {
+  display: flex;
+  justify-content: space-between;
+}
+
 .navigator {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .logo-margin {
@@ -283,6 +289,7 @@ body {
 }
 
 .hero-div {
+  display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
@@ -299,6 +306,7 @@ body {
 }
 
 .section-features-ulist-style {
+  list-style: none;
   display: flex;
   gap: 24px;
 }
@@ -306,6 +314,38 @@ body {
 .section-features-list-style {
   width: calc((100% - 3 * 24px) / 4);
 }
+
 .sec-fea-hthree {
+  text-align: center;
   margin-bottom: 8px;
+}
+
+.sec-fea-paragraph {
+  text-align: center;
+}
+
+/* Team section */
+
+.sec-team-style {
+  padding: 120px;
+}
+
+.sec-team-div {}
+
+.sec-team-htwo {
+  margin-bottom: 72px;
+}
+
+.sec-team-ulist {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+.sec-team-list {
+  width: calc((100 - 3 * 24px) / 4);
+}
+
+.sec-team-list-div {
+  padding: 32px 0;
 }
