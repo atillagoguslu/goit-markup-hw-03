@@ -1,2 +1,2 @@
-## Homework 2
-CSS kullanarak yaptığımız ilk ödev.
+## Homework 3
+Flex kullanarak yaptığımız ödev.
