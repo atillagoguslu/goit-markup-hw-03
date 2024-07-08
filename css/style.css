@@ -19,10 +19,12 @@
   --white: #fff;
   --dairy: #fcfcfc;
 }
+
 :root {
   --font-family: "Roboto", sans-serif;
   --second-family: "Raleway", sans-serif;
 }
+
 /* --- ROOT --- */
 
 /* Inheritler buradan başlıyor. */
@@ -34,6 +36,7 @@ a {
   color: inherit;
   text-decoration-line: inherit;
 }
+
 /* Inheritler burada bitiyor. */
 
 /* Header kısmı buradan başlıyor. */
@@ -54,13 +57,16 @@ header {
   text-transform: uppercase;
   color: var(--iris);
 }
+
 .logo-second-side {
   color: var(--navy-blue);
 }
+
 .nav-links {
   font-weight: 500;
   color: var(--navy-blue);
 }
+
 .address-neutralize {
   font-style: normal;
   font-weight: 400;
@@ -85,6 +91,7 @@ body {
 .hero {
   background-color: var(--navy-blue);
 }
+
 .hero-heading {
   font-weight: 700;
   font-size: 56px;
@@ -93,6 +100,7 @@ body {
   text-align: center;
   color: var(--white);
 }
+
 .hero-button {
   font-family: inherit;
   color: var(--white);
@@ -103,19 +111,23 @@ body {
   background: var(--iris);
   cursor: pointer;
 }
+
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--ocean);
 }
+
 .features-heading {
   font-weight: 700;
   font-size: 36px;
-  letter-spacing: 0.02em; /* Sanırım Heading inherit değil bu özelliğinde. */
+  letter-spacing: 0.02em;
+  /* Sanırım Heading inherit değil bu özelliğinde. */
   line-height: 111%;
   text-align: center;
   color: var(--navy-blue);
   text-transform: capitalize;
 }
+
 .features-headings {
   letter-spacing: 0.02em;
   font-weight: 500;
@@ -123,27 +135,33 @@ body {
   line-height: 120%;
   color: var(--navy-blue);
 }
+
 .features-paragraphs {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   color: var(--slate);
 }
+
 .team-heading {
   font-weight: 700;
   font-size: 36px;
-  letter-spacing: 0.02em; /* Sanırım Heading inherit değil bu özelliğinde. */
+  letter-spacing: 0.02em;
+  /* Sanırım Heading inherit değil bu özelliğinde. */
   line-height: 111%;
   text-align: center;
   color: var(--navy-blue);
   text-transform: capitalize;
 }
+
 .team {
   background: var(--cloud);
 }
+
 .team-list-li {
   background-color: var(--white);
 }
+
 .team-list-heading {
   font-weight: 500;
   font-size: 20px;
@@ -152,21 +170,25 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
 }
+
 .team-list-paragraphs {
   line-height: 150%;
   font-size: 16px;
   text-align: center;
 }
+
 .portfolio-headingtwo {
   font-weight: 700;
   font-size: 36px;
-  letter-spacing: 0.02em; /* Sanırım Heading inherit değil bu özelliğinde. */
+  letter-spacing: 0.02em;
+  /* Sanırım Heading inherit değil bu özelliğinde. */
   line-height: 111%;
   text-align: center;
   color: var(--navy-blue);
   text-transform: capitalize;
   letter-spacing: 0.02em;
 }
+
 .portfolio-heading {
   font-weight: 500;
   font-size: 20px;
@@ -174,27 +196,64 @@ body {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
+
 .portfolio-paragraphs {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   color: var(--slate);
 }
+
 /* Body kısmı burada bitiyor. */
 
 /* Footer kısmı buradan başlıyor. */
 .footer-section {
   background: var(--navy-blue);
 }
+
 .logo-at-footer-second-side {
   color: var(--cloud);
 }
+
 .footer-paragraph {
   line-height: 150%;
   color: var(--cloud);
 }
 
+/*  Flex Tasarım buradan sonrasında başlıyor. */
+
 .container {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header-border {
+  border-bottom: 1px solid var(--cornflower);
+}
+
+.navigator {
   display: flex;
   align-items: center;
 }
+
+.logo-margin {
+  
+  margin-right: 76px;
+}
+
+.navdaki-unordered-liste {
+  display: flex;
+  gap: 40px;
+}
+
+.navdaki-liste-duzeni {
+  display: flex;
+  padding: 24px 0;
+}
+
+ .address-ulist-style {
+  display: flex;
+  gap: 40px;
+ }
