@@ -271,7 +271,7 @@ body {
 /* Hero kısmının flexli stilleri */
 
 .hero-style {
-  padding: 188px 0;
+  padding: 188px 0px;
   flex-direction: column;
 }
 
@@ -298,7 +298,7 @@ body {
 /* Section Features buradan başlıyor */
 
 .section-features-style {
-  padding: 120px 0;
+  padding: 120px 0px;
 }
 
 .visually-hidden {
@@ -327,7 +327,7 @@ body {
 /* Team section */
 
 .sec-team-style {
-  padding: 120px;
+  padding: 120px 0px;
 }
 
 .sec-team-div {}
@@ -344,8 +344,55 @@ body {
 
 .sec-team-list {
   width: calc((100 - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .sec-team-list-div {
   padding: 32px 0;
+}
+
+.sec-team-hthree {
+  margin-bottom: 8px;
+}
+
+/* Portfolio section buradan başlıyor. */
+
+.sec-port {
+  padding: 120px 0px;
+}
+
+.sec-port-htwo {
+  margin-bottom: 72px;
+}
+
+.sec-port-ulist {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.sec-port-list {
+  width: calc((100% - 3 * 24px) / 3);
+}
+.sec-port-list-div {
+  padding: 32px 16px;
+  border: 1px solid var(--cornflower);
+  border-top: none;
+  margin-bottom: 8px;
+}
+
+/*  Footer bölümü buradan başlıyor. */
+
+.footer-main-style {
+  padding: 100px 0px;
+}
+
+.footer-div-link {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-div-p {
+  max-width: 264px;
 }
